@@ -155,7 +155,7 @@ select {
 }
 
 .inner-padding {
-  padding: 120px 70px;
+  padding: 60px 70px;
 }
 
 .vertical-align-center {
@@ -2137,7 +2137,18 @@ textarea.form-control {
     line-height: 38px;
   }
 }
+.font-c{
+  color: white;
+  /* line-height: 0px; */
+  margin-bottom: 6px;
 
+}
+.br-left{
+  border-left: 1px solid white;
+}
+.br-right{
+  border-right: 1px solid white;
+}
 /*-------------------
     lists
 -------------------*/
@@ -2145,7 +2156,7 @@ textarea.form-control {
   position: relative;
   padding-left: 26px;
   font-size: 15px;
-  line-height: 31px;
+  line-height: 20px;
 }
 
 .list-items li:before {
@@ -7841,7 +7852,7 @@ textarea.form-control {
 }
 
 .banner-3 .inner-padding {
-  padding: 110px 50px;
+  /* padding: 110px 50px; */
 }
 
 .banner-3 .heading__title {
